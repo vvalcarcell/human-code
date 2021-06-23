@@ -1,0 +1,29 @@
+// Una lampadina si è appena fulminata, è ora di cambiarla.
+
+Ho un array di oggettiNelRipostiglio
+su questo array applico un forEach (oggetto) 
+definisco fuori dall'array una variabile 'direzione'
+destrutturazione per avere il nome dell'oggetto come variabile
+if, condizione: se il nome è uguale a lampadina
+allora pushalo nell'array 'Mano'
+else, direzione = prompt('Google dove posso acquistare una lampadina?')
+-----
+
+ipotesi 1: Ho la lampadina nell'array 'Mano'
+queryselector('.presa-lampadina')[2] = Mano[0]
+
+ipotesi 2: Ho chiesto info a Google che mi ha dato un valore per la var direzione
+Ho un array: DirezioniCheConosco
+for, vado a ciclare in questo array
+if, var direzione === destinazionecheconosco[i]
+flag= true
+else flag= false
+posso definire una funzione: IsLontano(place):
+if(palce.distanza === lontano)
+allora ruturn: true
+else return: false
+lancio funzione var lontano= isLontano(destinazionecheconosco[i])
+if( flag && lontano)
+allora prendo la macchina
+if else (flag && !lontano)
+allora a piedi
